@@ -1,0 +1,129 @@
+/* Đặt lại các kiểu mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Nền sáng nhẹ nhàng */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Phần tiêu đề */
+header {
+    background-color: #e74c3c; /* Màu đỏ nổi bật */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Bố cục chính */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Phần giới thiệu */
+.about {
+    background-color: #ecf0f1; /* Màu nền nhẹ để tạo độ tương phản */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+/* Ảnh cá nhân */
+.profile-img {
+    width: 150px; /* Ảnh nhỏ gọn */
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 5px solid #e74c3c; /* Viền nổi bật */
+}
+
+/* Phần sở thích */
+.hobbies {
+    background-color: #2ecc71; /* Màu xanh nổi bật */
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies h2 {
+    margin-bottom: 10px;
+}
+
+.hobbies ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.hobbies ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color: #27ae60; /* Màu tối hơn cho phần tử */
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Phần sự thật thú vị */
+.fun-fact {
+    background-color: #3498db; /* Màu xanh đậm */
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fun-fact h2 {
+    margin-bottom: 10px;
+}
+
+.fun-fact p {
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color: #2980b9; /* Màu tối hơn cho đoạn văn */
+    border-radius: 5px;
+}
+
+/* Chân trang */
+footer {
+    background-color: #e74c3c; /* Màu đỏ giống header */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Hiệu ứng hover */
+.about:hover,
+.hobbies:hover,
+.fun-fact:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+
